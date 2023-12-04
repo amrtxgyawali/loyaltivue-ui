@@ -124,7 +124,9 @@ const Shopkeeper = () => {
                 Load User Details
               </button>
 
-              {userDetails && (
+             
+            </div>
+            {userDetails && (
                 <div className="mb-4 mt-4">
                   <h3>User Details</h3>
                   <p>
@@ -145,7 +147,6 @@ const Shopkeeper = () => {
                   </button>
                 </div>
               )}
-            </div>
           </div>
         </div>
       </div>
